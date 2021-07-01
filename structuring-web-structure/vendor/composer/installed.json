@@ -1,0 +1,83 @@
+[
+    {
+        "name": "pds/skeleton",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-pds/skeleton.git",
+            "reference": "95e476e5d629eadacbd721c5a9553e537514a231"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-pds/skeleton/zipball/95e476e5d629eadacbd721c5a9553e537514a231",
+            "reference": "95e476e5d629eadacbd721c5a9553e537514a231",
+            "shasum": ""
+        },
+        "time": "2017-01-25T23:30:41+00:00",
+        "bin": [
+            "bin/pds-skeleton"
+        ],
+        "type": "standard",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Pds\\Skeleton\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "CC-BY-SA-4.0"
+        ],
+        "description": "Standard for PHP package skeletons.",
+        "homepage": "https://github.com/php-pds/skeleton"
+    },
+    {
+        "name": "twbs/bootstrap",
+        "version": "v5.0.1",
+        "version_normalized": "5.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twbs/bootstrap.git",
+            "reference": "58b1be927f43c779377e478df2d119f2ddf956ca"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twbs/bootstrap/zipball/58b1be927f43c779377e478df2d119f2ddf956ca",
+            "reference": "58b1be927f43c779377e478df2d119f2ddf956ca",
+            "shasum": ""
+        },
+        "replace": {
+            "twitter/bootstrap": "self.version"
+        },
+        "time": "2021-05-13T16:22:20+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mark Otto",
+                "email": "markdotto@gmail.com"
+            },
+            {
+                "name": "Jacob Thornton",
+                "email": "jacobthornton@gmail.com"
+            }
+        ],
+        "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+        "homepage": "https://getbootstrap.com/",
+        "keywords": [
+            "JS",
+            "css",
+            "framework",
+            "front-end",
+            "mobile-first",
+            "responsive",
+            "sass",
+            "web"
+        ]
+    }
+]

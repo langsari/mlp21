@@ -1,0 +1,8 @@
+{
+    "require": {
+        "twbs/bootstrap": "5.0.1"
+    },
+    "require-dev": {
+        "pds/skeleton": "^1.0"
+    }
+}
