@@ -8,5 +8,3 @@
  */
 
 $object->propertyname $object->methodname([arg, ... ])
-
-

@@ -22,4 +22,6 @@ $anonymous = new class() extends Person {
         // return static value for testing purposes
         return "Moana";
     }
-}; // note: requires closing semicolon, unlike nonanonymous class definitions
+}; 
+// note: requires closing semicolon, 
+// unlike nonanonymous class definitions
