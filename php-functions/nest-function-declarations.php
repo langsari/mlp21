@@ -13,8 +13,9 @@ function outer ($a)
     {
         echo "there $b";
     }
+    
+    echo "$a, hello ";
 }
- echo "$a, hello ";
 
 // outputs "well, hello there reader"
 outer("well");
